@@ -1,0 +1,15 @@
+.wrap {
+	margin: 5% 0 0 5%;
+	max-width: 900px;
+}
+.source {
+	color: #770000;
+}
+.bold {
+	font-style: italic;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.wrap h1 {
+	color: #13007f;
+}
