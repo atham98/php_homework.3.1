@@ -21,10 +21,10 @@
         ?>
         <?php $postNew = new News($title, $date, $content, $source); ?>
         	<article>
-        		<h2><?= $postNew->getTitle() ?></h2>
-        		<p class="bold">Дата публикации: <span class="date"><?= $postNew->getDate() ?></span></p>
-        		<p><?= $postNew->getContent() ?></p>
-        		<p class="bold">Источник: <span class="source"><?= $postNew->getSource() ?></span></p>
+        		<h2><?= $postNew->title ?></h2>
+        		<p class="bold">Дата публикации: <span class="date"><?= $postNew->date ?></span></p>
+        		<p><?= $postNew->content ?></p>
+        		<p class="bold">Источник: <span class="source"><?= $postNew->source ?></span></p>
         	</article>
 		<?php endforeach ?>
 	</div>
